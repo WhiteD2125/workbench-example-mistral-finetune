@@ -114,7 +114,7 @@ execution:
   resources:
     gpu:
       requested: 1
-    sharedMemoryMB: 1024
+    sharedMemoryMB: 8192
   secrets:
   - variable: HUGGING_FACE_HUB_TOKEN
     description: Hugging Face API Key
